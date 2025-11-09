@@ -1,0 +1,66 @@
+# Python general ignores
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environment
+
+venv/
+.env/
+.venv/
+env/
+ENV/
+*.env
+
+# Jupyter / IPython
+
+.ipynb_checkpoints/
+*.ipynb
+*.ipynb.json
+
+# Streamlit cache and temp
+
+.streamlit/cache/
+.streamlit/config.toml.backup
+.streamlit/secrets.toml
+.cache/
+logs/
+tmp/
+
+# Dataset and output files
+
+dataset/*.csv
+*.csv
+*.xlsx
+*.json
+*.h5
+*.pkl
+*.sav
+
+# System and IDE files
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# Build / packaging / dist
+
+build/
+dist/
+*.spec
+
+# OS-specific
+*.tmp
+*.zip
+*.tar
+*.gz
